@@ -55,21 +55,21 @@ input {
     margin-right: 50px;
     height: 10
 }
-.icon{
+.icon {
     position: absolute;
     top: 20px;
     left: 20px;
     width: 30px;
     height: 30px;
 }
-.profile{
+.profile {
     width: 70px;
     border-radius: 50%;
     bottom: 10px;
     position: relative;
 }
 
-@media (min-width: 950px){
+@media only screen and (min-width: 950px) {
     
     .bnb-logo {
         object-fit: contain;
@@ -79,7 +79,7 @@ input {
         padding-right: 10px;
     }
    
-    ul{
+    ul {
         white-space: nowrap;
         display: flex;  
         list-style: none;
@@ -87,9 +87,10 @@ input {
         align-items: center;
         padding-right: 10px;
     }
-    li{
+    li {
         padding: 0 10px;
     }
+
     img {
         padding-right: 5px;
         max-width: 45px;
