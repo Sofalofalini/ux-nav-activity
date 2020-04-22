@@ -1,0 +1,113 @@
+html, body {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+}
+* {
+    box-sizing: border-box;
+}
+ul, p {
+    margin: 0;
+}
+p {
+    line-height: 1.5;
+}
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+nav{
+    display:flex;
+    box-shadow: 0px 1px 2px 1px rgba(65, 65, 65, 0.119);
+}
+ul{
+    display:none;
+}
+.bnb-logo {
+    object-fit: cover;
+    position: relative;
+    width: 100px;
+    top: 15px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+img {
+    max-width: 50%;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+input {
+    outline:none;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    border: none;
+    box-shadow: 0px 1px 2px 1px rgba(107, 107, 107, 0.331);
+    width: 240%;
+    padding-left: 50px;
+    border-radius: 5px;
+    height: 50px;
+}
+.search {
+    display: flex;
+    padding: 10px 0px 10px 10px;
+    position: relative;
+    width: 100%;
+    margin-right: 50px;
+    height: 10
+}
+.icon{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+}
+@media (min-width: 950px){
+    img {
+        padding-right: 5px;
+        max-width: 45px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    .bnb-logo {
+        object-fit: contain;
+        position: relative;
+        width: 50px;
+        top: 15px;
+        padding-right: 10px;
+    }
+   
+    ul{
+        white-space: nowrap;
+        display: flex;  
+        list-style: none;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 10px;
+    }
+    li{
+        padding: 0 10px;
+    }
+   
+    .icon{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 35px;
+        height: 30px;
+    }
+  
+}
+.profile{
+    width: 70px;
+    border-radius: 50%;
+    bottom: 10px;
+    position: relative;
+}
